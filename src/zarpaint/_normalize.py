@@ -33,6 +33,7 @@ _np_kinds = {
         }
 
 
+
 def _normalize_str_by_bit_depth(dtype_str, kind):
     if not any(str.isdigit(c) for c in dtype_str):  # Python 'int' or 'float'
         return np.dtype(kind).type
